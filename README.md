@@ -45,13 +45,13 @@ In your dialog class:
 CLayoutManager m_layoutManager;
 ```
 
-In OnInitDialog():
+In ```OnInitDialog()```:
 
 ```cpp
 m_layoutManager.Init(this);
 ```
 
-In OnSize():
+In ```OnSize()```:
 
 ```cpp
 void CYourDlg::OnSize(UINT nType, int cx, int cy)
